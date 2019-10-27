@@ -58,15 +58,41 @@ body {
 .sidebar{
     float: left;
     width: 200px;
-    height: 300px;
     background-color: #FFF;
+}
+.sidebar div {
+    height: 40px;
+    border-bottom: 1px solid #032340;
+}
+.sidebar :first-child div {
+    border-top: 1px solid #032340;
+    background-color: #032340;
+    color: #f1f1f1;
+}
+
+.sidebar div:hover {
+    background-color: #032340;
+    color: #f1f1f1;
+}
+.sidebar a div {
+    text-align: center;
+    line-height: 27pt;
+    color: #032340;
+    font-family: 'PT Serif', serif;
+    font-size: 14pt;
+}
+
+.sidebar .notready {
+    color: #D9C3B0;
 }
 
 .content {
     margin-left: 210px;
     height: 1000px;    
-    background-color: #FFF;
-    
+    background-color: #FFF;    
+    border-radius: 5px;  
+    padding: 10px;
+    text-align: justify;
 }
 
 /* Стили */
@@ -92,3 +118,4 @@ body {
 .nav div:hover a {
     color: #032340;
 }
+
