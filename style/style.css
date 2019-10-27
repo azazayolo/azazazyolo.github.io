@@ -1,0 +1,94 @@
+
+/* 
+#010440
+#011640
+#032340
+#F2EEB6
+#D9C3B0
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F1f1f1;
+}
+
+/* Сетка */
+
+.header {
+    background-color: #032340;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.сontainer {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+    float: left;
+    margin: 12px 0px;
+}
+
+.nav {
+    float: right;
+}
+.nav div {
+    float: left;
+    padding: 12px 20px;
+}
+
+.main {
+    clear: both;
+}
+
+.sidebar{
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: #FFF;
+}
+
+.content {
+    margin-left: 210px;
+    height: 1000px;    
+    background-color: #FFF;
+    
+}
+
+/* Стили */
+
+
+
+
+.logo a {
+    color: #f1f1f1;
+    font-family: 'Cinzel', serif;
+    font-size: 18pt;
+}
+
+.nav div a {
+    color: #f1f1f1;
+    font-family: 'PT Serif', serif;
+    font-size: 18pt;
+}
+
+.nav div:hover {
+    background-color: #F1f1f1;
+}
+.nav div:hover a {
+    color: #032340;
+}
