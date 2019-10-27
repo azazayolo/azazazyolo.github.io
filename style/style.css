@@ -20,7 +20,7 @@ body {
 
 /* Сетка */
 
-.header {
+header {
     background-color: #032340;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
@@ -43,62 +43,13 @@ body {
     margin: 12px 0px;
 }
 
-.nav {
+nav {
     float: right;
 }
-.nav div {
+nav div {
     float: left;
     padding: 12px 20px;
 }
-
-.main {
-    clear: both;
-}
-
-.sidebar{
-    float: left;
-    width: 200px;
-    background-color: #FFF;
-}
-.sidebar div {
-    height: 40px;
-    border-bottom: 1px solid #032340;
-}
-.sidebar :first-child div {
-    border-top: 1px solid #032340;
-    background-color: #032340;
-    color: #f1f1f1;
-}
-
-.sidebar div:hover {
-    background-color: #032340;
-    color: #f1f1f1;
-}
-.sidebar a div {
-    text-align: center;
-    line-height: 27pt;
-    color: #032340;
-    font-family: 'PT Serif', serif;
-    font-size: 14pt;
-}
-
-.sidebar .notready {
-    color: #D9C3B0;
-}
-
-.content {
-    margin-left: 210px;
-    height: 1000px;    
-    background-color: #FFF;    
-    border-radius: 5px;  
-    padding: 10px;
-    text-align: justify;
-}
-
-/* Стили */
-
-
-
 
 .logo a {
     color: #f1f1f1;
@@ -106,16 +57,114 @@ body {
     font-size: 18pt;
 }
 
-.nav div a {
+nav div a {
     color: #f1f1f1;
     font-family: 'PT Serif', serif;
     font-size: 18pt;
 }
 
-.nav div:hover {
+nav div:hover {
     background-color: #F1f1f1;
 }
-.nav div:hover a {
+nav div:hover a {
     color: #032340;
 }
+
+.page {
+    clear: both;
+}
+
+sidebar{
+    float: left;
+    width: 200px;
+    background-color: #FFF;
+}
+sidebar div {
+    height: 40px;
+    border-bottom: 1px solid #032340;
+}
+sidebar :first-child div {
+    border-top: 1px solid #032340;
+    background-color: #032340;
+    color: #f1f1f1;
+}
+
+sidebar div:hover {
+    background-color: #032340;
+    color: #f1f1f1;
+}
+sidebar a div {
+    text-align: center;
+    line-height: 27pt;
+    color: #032340;
+    font-family: 'Roboto', serif;
+    font-size: 14pt;
+}
+
+sidebar .notready {
+    color: #D9C3B0;
+}
+
+main {
+    margin-left: 210px;    
+    background-color: #FFF;    
+    border-radius: 5px;  
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+    color: #000;
+    font-family: "Pt serif", serif;
+    font-size: 20pt;
+}
+
+main p {
+    text-align: justify;
+    font-family: "Open sans", sans-serif;
+    font-size: 14pt;
+    text-indent: 1.5em;
+    color: #000;
+}
+main .cite {
+    text-align: center;
+    font-size:  12pt;
+    
+}
+
+footer {
+    background-color: #032340;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px; 
+    padding: 5px;
+}
+
+footer div .f {
+    color: #f1f1f1;
+    margin: 0 7%;
+    height: 32px;
+    font-family: 'PT Serif', serif;
+    font-size: 10pt;
+}
+footer .vk {
+    float: left;
+}
+
+footer .info {
+    float: right;
+    text-align: center;
+}
+footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+footer div a img {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+
+
 
